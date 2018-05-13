@@ -1,8 +1,8 @@
 def run_guessing_game
-  
+
   user_input = ""
-  
-  while user_input 
+
+  if user_input
     puts "Guess a number between 1 and 6."
     user_input = gets.chomp
     numbers = rand(1..6)
@@ -15,5 +15,5 @@ def run_guessing_game
       puts "The computer guessed #{numbers}."
       end
  end
- 
-end 
+
+end
